@@ -1,0 +1,24 @@
+{
+    "name": "sfk345/collect",
+    "description": "description",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sfk345",
+            "email": "sonechka_27_01@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sfk345\\Collect\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}

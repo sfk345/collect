@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sfk345\\Collect\\": "src/"
+            "Collect\\": "src/"
         },
         "files": [
             "src/helpers.php"
